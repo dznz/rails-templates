@@ -1,6 +1,6 @@
 
 if yes?("Do you want to use Mongoid?")
-  gem "mongoid"
+  gem "mongoid", "2.0.0.rc.1"
   gem "bson_ext"
   generate "mongoid:config"
 end
